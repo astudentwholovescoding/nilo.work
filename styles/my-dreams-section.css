@@ -1,0 +1,11 @@
+#my-dreams {
+    position: absolute;
+    top: 100vh;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(90deg, #000000ff, #ffffff00, #ffffff00), url(/assets/images/nezuko.gif);
+    background-size: 100vw;
+    background-position: center;
+}

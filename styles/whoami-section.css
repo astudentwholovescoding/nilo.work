@@ -1,0 +1,58 @@
+#whoami {
+    width: 100vw;
+    height: 100vh;
+
+    color: white;
+    font-family: "Short Stack", cursive;
+    text-align: center;
+}
+
+#whoami h1 {
+    padding: 20px;
+    font-size: 55px;
+}
+
+#whoami .bio {
+    display: grid;
+    align-items: center;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, auto);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#whoami h3 {
+    font-style: normal;
+}
+
+#whoami img {
+    align-self: center;
+    justify-self: center;
+    width: 80px;
+    border-radius: 30px;
+    transition: 1s ease;
+}
+#whoami img:hover {
+    width: 120px;
+}
+
+#whoami .scroll-text {
+    inline-size: 100px;
+    text-align: center;
+    font-family: "Short Stack", cursive;
+    color: white;
+    position: absolute;
+    right: 67px;
+    top: 187vh;
+
+    display: flex;
+    align-items: center;
+}
+
+#whoami .scroll-text p {
+    font-size: 18px;
+}
+
+#whoami .scroll-text i {
+    margin-left: 20px;
+}
